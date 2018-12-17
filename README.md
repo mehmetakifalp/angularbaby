@@ -4,7 +4,7 @@ AngularBaby is a rich UI component kit for angular projects. Its totally open so
 
 AngularBaby helps you to create(without pain) awesome angular projects with great UI and great implementation.
 
-TASK LIST;
+To Do;
 - [x] BASE FOR COMPONENTS
 - [ ] ATOMS
 - [ ] MOLECULES
