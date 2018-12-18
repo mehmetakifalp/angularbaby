@@ -1,6 +1,6 @@
-# Angularbaby
+# AngularBaby
 
-AngularBaby is a rich UI component kit for angular projects. Its totally open source and free to use.
+AngularBaby is an UI component kit for angular projects. Its totally open source and free to use. 
 
 AngularBaby helps you to create(without pain) awesome angular projects with great UI and great implementation.
 
