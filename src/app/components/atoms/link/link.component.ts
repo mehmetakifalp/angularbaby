@@ -1,4 +1,4 @@
-import { Component, ChangeDetectionStrategy, ViewEncapsulation } from "@angular/core";
+import { Component, ChangeDetectionStrategy, ViewEncapsulation, Input } from "@angular/core";
 
 @Component({
     selector: 'baby-link',
@@ -7,5 +7,12 @@ import { Component, ChangeDetectionStrategy, ViewEncapsulation } from "@angular/
     encapsulation: ViewEncapsulation.None
 })
 export class LinkComponent {
-    
+    @Input()
+    linkTitle: string = 'Default Link Title';
+
+    @Input()
+    linkText: string = ' Default Link Text';
+
+    @Input()
+    linkHref:string = '#';
 }
