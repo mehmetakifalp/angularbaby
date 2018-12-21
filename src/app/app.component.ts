@@ -1,3 +1,7 @@
+/*
+ * @Author: mehmetakifalp@gmail.com - mehmet akif alp 
+ * @Company : rastmobile.com
+ */
 import { Component } from '@angular/core';
 
 @Component({

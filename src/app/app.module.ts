@@ -1,3 +1,7 @@
+/*
+ * @Author: mehmetakifalp@gmail.com - mehmet akif alp 
+ * @Company : rastmobile.com
+ */
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
