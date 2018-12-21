@@ -2,6 +2,8 @@
 
 In AngularBaby we're sharing UI elements from OUR project. 
 
+Our focus to develop as much as possible open source web applications. When we develop that kind web app, we also follow atomic design principles.
+
 AngularBaby is an UI component kit for angular projects. Its totally open source and free to use. 
 
 AngularBaby helps you to create(without pain) awesome angular projects with great UI and great implementation.
