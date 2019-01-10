@@ -1,6 +1,6 @@
 # AngularBaby
 
-In AngularBaby we're sharing Mini UI App's from OUR project. 
+In AngularBaby we're sharing Mini UI App's from OUR projects. 
 
 Our focus to develop all kind open source angular applications. We also following atomic design principles.
 
