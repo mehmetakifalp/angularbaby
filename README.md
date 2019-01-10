@@ -2,7 +2,7 @@
 
 In AngularBaby we're sharing Mini UI App from OUR project. 
 
-Our focus to develop as much as possible open source web applications. We also following atomic design principles.
+Our focus to develop all kind open source angular applications. We also following atomic design principles.
 
 ![Angular Baby Kit](https://avatars3.githubusercontent.com/u/46124764?s=300&v=3)
 
