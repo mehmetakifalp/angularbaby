@@ -8,6 +8,7 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AtomsModule } from './components/atoms/atoms.module';
+import { MoleculesModule } from './components/molecules/molecules.module';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { AtomsModule } from './components/atoms/atoms.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    AtomsModule
+    AtomsModule,
+    MoleculesModule
   ],
   providers: [],
   bootstrap: [AppComponent]
