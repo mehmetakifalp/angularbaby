@@ -1,5 +1,5 @@
 /*
- * @Author: mehmetakifalp@gmail.com - mehmet akif alp 
+ * @Author: mehmetakifalp@gmail.com - mehmet akif alp
  * @Company : rastmobile.com
  */
 import { Component, OnInit, Input } from '@angular/core';
@@ -13,9 +13,6 @@ export class InputComponent implements OnInit {
 
   @Input()
   inputType:string = "text";
-
-  @Input()
-  inputReadonly: boolean = false;
 
   @Input()
   inputPlaceholder: string = 'Default Placeholder';

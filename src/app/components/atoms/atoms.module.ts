@@ -1,5 +1,5 @@
 /*
- * @Author: mehmetakifalp@gmail.com - mehmet akif alp 
+ * @Author: mehmetakifalp@gmail.com - mehmet akif alp
  * @Company : rastmobile.com
  */
 import { NgModule } from '@angular/core';
