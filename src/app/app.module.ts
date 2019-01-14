@@ -9,6 +9,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AtomsModule } from './components/atoms/atoms.module';
 import { MoleculesModule } from './components/molecules/molecules.module';
+import { OrganismsModule } from './components/organisms/organisms.module';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { MoleculesModule } from './components/molecules/molecules.module';
     BrowserModule,
     AppRoutingModule,
     AtomsModule,
-    MoleculesModule
+    MoleculesModule,
+    OrganismsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
