@@ -7,9 +7,10 @@ import { CommonModule } from '@angular/common';
 import { AtomsComponent } from './atoms.component';
 import { InputComponent } from './input/input.component';
 import { LinkComponent } from './link/link.component';
+import { ListItemComponent } from './list-item/list-item.component';
 
 @NgModule({
-  declarations: [AtomsComponent, InputComponent, LinkComponent],
+  declarations: [AtomsComponent, InputComponent, LinkComponent, ListItemComponent],
   imports: [
     CommonModule
   ]
