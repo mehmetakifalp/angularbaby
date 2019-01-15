@@ -8,9 +8,10 @@ import { AtomsComponent } from './atoms.component';
 import { InputComponent } from './input/input.component';
 import { LinkComponent } from './link/link.component';
 import { ListItemComponent } from './list-item/list-item.component';
+import { ButtonComponent } from './button/button.component';
 
 @NgModule({
-  declarations: [AtomsComponent, InputComponent, LinkComponent, ListItemComponent],
+  declarations: [AtomsComponent, InputComponent, LinkComponent, ListItemComponent, ButtonComponent],
   imports: [
     CommonModule
   ]

@@ -8,5 +8,12 @@ export class ButtonComponent {
 
 
     @Input()
-    buttonType: string = 'btn'
+    buttonType: string = 'submit';
+
+    @Input()
+    buttonClass: string = 'btn';
+
+    @Input()
+    buttonStatus: boolean = false;
+
 }
