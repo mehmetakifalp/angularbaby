@@ -1,4 +1,4 @@
-import { Component, ChangeDetectionStrategy, ViewEncapsulation } from "@angular/core";
+import { Component, ChangeDetectionStrategy, ViewEncapsulation, Input } from "@angular/core";
 
 @Component({
   selector: 'baby-tooltip',
@@ -7,5 +7,16 @@ import { Component, ChangeDetectionStrategy, ViewEncapsulation } from "@angular/
   encapsulation: ViewEncapsulation.None
 })
 export class TooltipComponent{
+
+
+  @Input()
+  tooltipText: string = "Default Tooltip Text";
+
+  @Input()
+  tooltipSide: string = "left";
+
+  @Input()
+  tooltipClass: string = "tooltip";
+
 
 }
