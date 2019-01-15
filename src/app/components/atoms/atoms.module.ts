@@ -11,7 +11,7 @@ import { ListItemComponent } from './list-item/list-item.component';
 import { ButtonComponent } from './button/button.component';
 
 @NgModule({
-  declarations: [AtomsComponent, InputComponent, LinkComponent, ListItemComponent, ButtonComponent],
+  declarations: [ ],
   imports: [
     CommonModule
   ]
