@@ -2,11 +2,12 @@
  * @Author: mehmetakifalp@gmail.com - mehmet akif alp
  * @Company : rastmobile.com
  */
-import { Component, Input } from "@angular/core";
+import { Component, Input, ChangeDetectionStrategy } from "@angular/core";
 
 @Component({
   selector: 'baby-button',
-  templateUrl: 'button.component.html'
+  templateUrl: 'button.component.html',
+  changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class ButtonComponent {
 
@@ -19,5 +20,10 @@ export class ButtonComponent {
 
     @Input()
     buttonStatus: boolean = false;
+
+
+    get buttonText():string{
+      return  "Default Text";
+    }
 
 }
