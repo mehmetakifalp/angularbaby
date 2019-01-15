@@ -14,5 +14,5 @@ export class LinkComponent {
     linkText: string = ' Default Link Text';
 
     @Input()
-    linkHref:string = '#';
+    linkHref:string = 'atoms';
 }
