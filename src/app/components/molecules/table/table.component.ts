@@ -12,8 +12,13 @@ export class TableComponent{
 
 
   @Input()
-  data = [{
-    id: 1, name: "Mehmet"
-  }];
+  data = [
+    {id: 1, name: "Mehmet"},
+    {id: 2, name: "Eydi"},
+    {id: 3, name: "Edip"},
+    {id: 4, name: "Ekrem"},
+    {id: 5, name: "Miraç"},
+    {id: 6, name: "Mustafa"},
+];
 
 }
