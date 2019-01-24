@@ -10,9 +10,14 @@ import { Component, Input } from "@angular/core";
 })
 export class TableComponent{
 
+  @Input()
+  rows = [
+    {name: 'Id'},
+    {name: 'Name'}
+  ]
 
   @Input()
-  data = [
+  columns = [
     {id: 1, name: "Mehmet"},
     {id: 2, name: "Eydi"},
     {id: 3, name: "Edip"},
