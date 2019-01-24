@@ -1,10 +1,9 @@
 <table>
-    <tr>
-      <th>Id</th>
-      <th>Name</th>
+    <tr *ngFor="let row of rows;">
+      <th>{{row.name}}</th>
     </tr>
-    <tr>
-      <td>1</td>
-      <td>Mehmet</td>
+    <tr *ngFor="let column of columns;">
+      <td>{{column.id}}</td>
+      <td>{{column.name}}</td>
     </tr>
   </table>
