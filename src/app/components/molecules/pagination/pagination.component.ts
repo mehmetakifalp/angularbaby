@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
     selector: 'baby-pagination',
@@ -6,4 +6,10 @@ import { Component } from '@angular/core';
 })
 export class PaginationComponent{
 
+
+    @Input()
+    pageSize: number = 0;
+
+    @Input()
+    totalCount: number = 0;
 }
