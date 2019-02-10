@@ -8,7 +8,6 @@ import { ButtonComponent } from './components/atoms/button/button.component';
 import { TooltipComponent } from './components/atoms/tooltip/tooltip.component';
 
 @NgModule({
-
     imports:[AtomsComponent,
         InputComponent, LinkComponent, ListItemComponent, ButtonComponent,TooltipComponent],
     exports:[AtomsComponent,
