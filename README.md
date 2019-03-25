@@ -1,8 +1,6 @@
 # AngularBaby
 
-In AngularBaby we're sharing Mini UI App's from OUR projects. 
-
-Our focus to develop all kind open source angular applications. We also following atomic design principles.
+AngularBaby following atomic design principles.
 
 ![Angular Baby Kit](https://avatars3.githubusercontent.com/u/46124764?s=300&v=3)
 
