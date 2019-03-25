@@ -9,13 +9,19 @@ AngularBaby is an UI component kit for angular projects. Its totally open source
 AngularBaby helps you to create(without pain) awesome angular projects with great UI and great implementation.
 
 To Do;
-- [x] Base For components
-- [ ] Typography
-- [ ] Color Palette & Font Family
-- [ ] Atoms
-- [ ] Molecules
-- [ ] Organizms
-- [ ] Example Templates
+- [x] Atoms
+- [x] - Button Atom
+- [x] - ICON Atom
+- [x] - Input Atom
+- [x] - Input With Icon Atom
+- [x] - Input With Checkbox Atom
+- [x] - Link Atom
+- [x] - Text Atom
+- [x] Molecules
+- [x] Organisms
+- [x] Templates/Pages
+- [x] Molecules
+- [x] Organizms
 
 
 ## Development server

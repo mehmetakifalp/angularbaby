@@ -7,6 +7,6 @@ import { Component } from '@angular/core';
 export class InputRememberMoleculesComponent{
 
   logMeIn($event){
-    alert($event);
+    console.log($event);
   }
 }
