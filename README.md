@@ -11,6 +11,7 @@ AngularBaby helps you to create(without pain) awesome angular projects with grea
 To Do;
 - [x] Atoms
 - [x] - Button Atom
+- [x] - Button with Icon Atom
 - [x] - ICON Atom
 - [x] - Input Atom
 - [x] - Input With Icon Atom
@@ -18,7 +19,12 @@ To Do;
 - [x] - Link Atom
 - [x] - Text Atom
 - [x] Molecules
+- [x] - Input Remember me Molecules
 - [x] Organisms
+- [x] - Login
+- [x] - Payment
+- [x] - Profile
+- [x] - Register
 - [x] Templates/Pages
 - [x] Molecules
 - [x] Organizms
