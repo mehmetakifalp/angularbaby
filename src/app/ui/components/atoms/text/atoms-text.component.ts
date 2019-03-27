@@ -5,17 +5,13 @@ import { Component, OnInit, ViewEncapsulation, Input, ChangeDetectionStrategy } 
   templateUrl:'atoms-text.component.html',
   encapsulation:ViewEncapsulation.None,
   changeDetection:ChangeDetectionStrategy.OnPush
-
 })
 export class AtomsTextComponent {
-
 
   @Input()
   hSize: string = 'h1';
 
-
   @Input()
   hText: string = 'Text';
-
 
 }

@@ -13,11 +13,6 @@ export class InputComponent{
   inputPlaceholder: string = 'Default Placeholder';
 
   @Input()
-  inputClass: string = 'input'
-
-  constructor() { }
-
-  ngOnInit() {
-  }
+  inputClass: string = 'input';
 
 }
