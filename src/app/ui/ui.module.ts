@@ -19,11 +19,12 @@ import { CreditCardDirective } from './directives/credit-card.directive';
 
 // pipes
 import { CardPipe } from './pipes/card.pipe';
+import { AtomsTextComponent } from './components/atoms/text/atoms-text.component';
 
 @NgModule({
   imports: [],
-  declarations:[CardPipe, CreditCardDirective, InputComponent, InputWithIconComponent, IconComponent, ButtonComponent, InputWithCheckboxComponent, InputMoleculesComponent, InputRememberMoleculesComponent],
-  exports:[CardPipe, CreditCardDirective, InputComponent, InputWithIconComponent, IconComponent, ButtonComponent, InputWithCheckboxComponent, InputMoleculesComponent, InputRememberMoleculesComponent]
+  declarations:[CardPipe, CreditCardDirective, InputComponent, AtomsTextComponent, InputWithIconComponent, IconComponent, ButtonComponent, InputWithCheckboxComponent, InputMoleculesComponent, InputRememberMoleculesComponent],
+  exports:[CardPipe, CreditCardDirective, InputComponent,AtomsTextComponent,  InputWithIconComponent, IconComponent, ButtonComponent, InputWithCheckboxComponent, InputMoleculesComponent, InputRememberMoleculesComponent]
 })
 export class UiModule{
 
