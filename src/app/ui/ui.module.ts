@@ -12,7 +12,7 @@ import { InputWithIconComponent } from './components/atoms/input/input-with-icon
 import { InputWithCheckboxComponent } from './components/atoms/input/input-with-checkbox.component';
 
 import { IconComponent } from './components/atoms/icon/icon.component';
-import {ButtonComponent} from './components/atoms/button/button.component';
+import {   AtomsButtonComponent} from './components/atoms/button/atom-button.component';
 
 // directives
 import { CreditCardDirective } from './directives/credit-card.directive';
@@ -23,8 +23,8 @@ import { AtomsTextComponent } from './components/atoms/text/atoms-text.component
 
 @NgModule({
   imports: [],
-  declarations:[CardPipe, CreditCardDirective, InputComponent, AtomsTextComponent, InputWithIconComponent, IconComponent, ButtonComponent, InputWithCheckboxComponent, InputMoleculesComponent, InputRememberMoleculesComponent],
-  exports:[CardPipe, CreditCardDirective, InputComponent,AtomsTextComponent,  InputWithIconComponent, IconComponent, ButtonComponent, InputWithCheckboxComponent, InputMoleculesComponent, InputRememberMoleculesComponent]
+  declarations:[CardPipe, CreditCardDirective, InputComponent, AtomsTextComponent, InputWithIconComponent, IconComponent, AtomsButtonComponent, InputWithCheckboxComponent, InputMoleculesComponent, InputRememberMoleculesComponent],
+  exports:[CardPipe, CreditCardDirective, InputComponent,AtomsTextComponent,  InputWithIconComponent, IconComponent, AtomsButtonComponent, InputWithCheckboxComponent, InputMoleculesComponent, InputRememberMoleculesComponent]
 })
 export class UiModule{
 
