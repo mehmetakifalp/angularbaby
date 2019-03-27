@@ -1,18 +1,17 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, ViewEncapsulation, ChangeDetectionStrategy } from '@angular/core';
 
 // component
 import { InputComponent } from './input.component';
 
 @Component({
   selector:'input-with-icon',
-  templateUrl:'input-with-icon.component.html'
+  templateUrl:'input-with-icon.component.html',
+  encapsulation:ViewEncapsulation.None,
+  changeDetection:ChangeDetectionStrategy.OnPush
 })
 export class InputWithIconComponent extends InputComponent{
 
-
 @Input()
 iconName: string;
-
-
 
 }
