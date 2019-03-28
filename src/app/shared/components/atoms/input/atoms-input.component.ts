@@ -14,24 +14,21 @@ import { Component,  Input, ChangeDetectionStrategy, ViewEncapsulation } from '@
 export class AtomsInputComponent  {
 
   @Input()
-  inputType:string = "text";
+  inputType:string = "Default Text";
 
   @Input()
   inputPlaceholder: string = 'Default Placeholder';
 
   @Input()
-  inputClass: string = 'input';
+  inputClass: string = 'default-class';
 
   @Input()
-  inputName: string = 'name';
+  inputName: string = 'inputName';
 
   @Input()
   inputReadonly: boolean = false;
 
   @Input()
   inputDisabled: boolean = false;
-
-
-
 
 }
