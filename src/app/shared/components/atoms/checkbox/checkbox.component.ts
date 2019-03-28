@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
-import { InputComponent } from '../input/input.component';
+import { AtomsInputComponent } from '../input/atoms-input.component';
 
 @Component({
   selector:'baby-checkbox',
   templateUrl:'checkbox.component.html'
 })
-export class CheckboxComponent extends InputComponent{
+export class CheckboxComponent extends AtomsInputComponent{
 
 }

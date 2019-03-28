@@ -2,16 +2,16 @@
  * @Author: mehmetakifalp@gmail.com - mehmet akif alp
  * @Company : rastmobile.com
  */
-import { Component, OnInit, Input, ChangeDetectionStrategy, ViewEncapsulation } from '@angular/core';
+import { Component,  Input, ChangeDetectionStrategy, ViewEncapsulation } from '@angular/core';
 
 @Component({
   selector: 'baby-input',
-  templateUrl: './input.component.html',
-  styleUrls: ['./input.component.css'],
+  templateUrl: './atoms-input.component.html',
+  styleUrls: ['./atoms-input.component.css'],
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush
 })
-export class InputComponent implements OnInit {
+export class AtomsInputComponent  {
 
   @Input()
   inputType:string = "text";
@@ -22,9 +22,6 @@ export class InputComponent implements OnInit {
   @Input()
   inputClass: string = 'input'
 
-  constructor() { }
 
-  ngOnInit() {
-  }
 
 }
