@@ -11,7 +11,14 @@ import { InputComponent } from './input.component';
 })
 export class InputWithIconComponent extends InputComponent{
 
-@Input()
-iconName: string;
+
+  @Input()
+  iconClass: string = '';
+
+  @Input()
+  iconSize: number = 2;
+
+  @Input()
+  iconName: string = 'fa-envelope';
 
 }
