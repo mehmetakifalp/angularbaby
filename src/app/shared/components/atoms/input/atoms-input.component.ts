@@ -20,7 +20,17 @@ export class AtomsInputComponent  {
   inputPlaceholder: string = 'Default Placeholder';
 
   @Input()
-  inputClass: string = 'input'
+  inputClass: string = 'input';
+
+  @Input()
+  inputName: string = 'name';
+
+  @Input()
+  inputReadonly: boolean = false;
+
+  @Input()
+  inputDisabled: boolean = false;
+
 
 
 
